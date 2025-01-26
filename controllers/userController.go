@@ -42,3 +42,10 @@ func SignUp(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{})
 
 }
+
+func Login(c *gin.Context) {}
+func GetUser(c *gin.Context) {}
+func UpdateUser(c *gin.Context) {}
+func DeleteUser(c *gin.Context) {}
+func Logout(c *gin.Context) {}
+func RequireAuth(c *gin.Context) {}
